@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Coffe Kings</title>
+</head>
+
+<body>
+    <header class="cabeçaNavegation">
+        <a href="#">
+            <img class="coffeeImagem" src="img/logo 2.png" alt="Kings coffee">
+        </a>
+        <nav class="menusinho">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Menu</li>
+                <li>Products</li>
+            </ul>
+        </nav>
+        <ul class="iconeFinal">
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="search-outline"></ion-icon>
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </header>
+    <div class="navigation">
+        <ul>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="cafe-outline"></ion-icon>
+                    </span>
+                    <span class="title">Brand Name</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="home"></ion-icon>
+                    </span>
+                    <span class="title">Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <span class="title">Costumers</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="chatbubbles"></ion-icon>
+                    </span>
+                    <span class="title">Messages</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="help"></ion-icon>
+                    </span>
+                    <span class="title">Help</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="settings"></ion-icon>
+                    </span>
+                    <span class="title">Setting</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                    </span>
+                    <span class="title">Passuord</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="icon">
+                        <ion-icon name="log-out"></ion-icon>
+                    </span>
+                    <span class="title">Sing Out</span>
+                </a>
+            </li>
+        </ul>
+        <div class="toggle"></div>
+    </div>
+    <div class="texto">
+        <h1>
+            Fre coffee in<br> the morning
+        </h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt<br>reprehenderit voluptas velit aliquam
+            eaque, ducimus cupiditate<br> sit itaque qui, fugit sed nisi nesciunt quod voluptate ipsa laudantium<br>
+            rerum? Ipsam, rem.
+        </p>
+        <button class="botão">
+            <a href="#">
+                Get It now
+            </a>
+        </button>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg .com/ionicons@5.5.2/dist/ionicons/ionicons.js"> </script>
+
+    <script>
+        let navigation = document.querySelector('.navigation');
+        let toggle = document.querySelector('.toggle');
+        toggle.onclick = function () {
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
